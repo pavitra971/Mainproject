@@ -1,0 +1,1 @@
+web: waitress-serve --listen=$LISTEN project.wsgi:application
