@@ -273,9 +273,7 @@
   
   <!-- End Intro Section -->
 
-
-
- <main id="main">
+  <main id="main">
 
     <!-- ======= Services Section ======= -->
     <section class="section-services section-t8">
@@ -290,20 +288,20 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" style="margin-right: 200px;">
             <div class="card-box-c foo">
               <div class="card-header-c d-flex">
                 <div class="card-box-ico">
                   <span class="bi bi-cart"></span>
                 </div>
                 <div class="card-title-c align-self-center">
-                  <h2 class="title-c">Rate It</h2>
+                  <h2 class="title-c">Price Prediction</h2>
                 </div>
               </div>
               <div class="card-body-c">
                 <p class="content-c">
-                  Chech out the price prediction model below to know the prices of flats at different localities in Bangalore.  
-                  Enter the Details to know the price of your dream house with our model
+                  Chech out the price prediction model below to know the prices of flats at different localities in Bangalore. 
+                  And know the price of your dream house we bring you this service 
                 </p>
               </div>
               <div class="card-footer-c">
@@ -336,30 +334,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card-box-c foo">
-              <div class="card-header-c d-flex">
-                <div class="card-box-ico">
-                  <span class="bi bi-card-checklist"></span>
-                </div>
-                <div class="card-title-c align-self-center">
-                  <h2 class="title-c">Sell</h2>
-                </div>
-              </div>
-              <div class="card-body-c">
-                <p class="content-c">
-                  Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                  convallis a pellentesque
-                  nec, egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer-c">
-                <a href="#" class="link-c link-icon">Read more
-                  <span class="bi bi-chevron-right"></span>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -367,12 +341,11 @@
 
 
     <!-- ======= Agents Section ======= -->
-<section class="section-agents section-t8" id="price_predictor">
+    <section class="section-agents section-t8" id="price_predictor">
 <div class="container">
     <div class="title-box-d">
       <h3 class="title-d">Predict Price</h3>
     </div>
-    <div class="container">
       <form class="form-a" action="result" >
         <div class="row">
           <div class="col-md-6 mb-2">
@@ -627,7 +600,7 @@
           </div>               
                 
           <div class="col-md-6 mb-2">
-            <div class="container">
+            <div class="form-group">
               <label for="BHKs">BHK</label>
               <input  class="form-control form-control-lg form-control-a" type='text' name ='BHK' list="bedrooms">
               <datalist id="bedrooms">
@@ -638,35 +611,33 @@
             </div>
           </div>
 
+           <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="Bath">Bath</label>
+              <input  class="form-control form-control-lg form-control-a" type='text' name ='Bath' list="bathroom">
+              <datalist id="bathroom">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </datalist>
+            </div>
+          </div>
+           <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="squarefeet">Square feet</label>
+              <input  class="form-control form-control-lg form-control-a" type='text' name ='squarefeet'>
+              
+            </div>
+          </div>
+
           <div class="col-md-12">
-            <button type="submit" value="Submit" class="btn btn-b">Search Property</button>
+            <button type="submit" class="btn btn-b">Search Property</button>
           </div>
         </div>
       </form>
     </div>
   </div>
     </section><!-- End Agents Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
- 
-
-
-
-
 
     <!-- ======= Latest News Section ======= -->
     <section class="section-news section-t8">
@@ -1202,19 +1173,17 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="/about">About</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="/buy">Blog</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Blog</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </nav>
@@ -1263,7 +1232,7 @@
   </footer><!-- End  Footer -->
 
   
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up"></i></a>
 
   <!-- Vendor JS Files -->
   
